@@ -1,7 +1,7 @@
 # SGProxy - Simple GO Proxy
 
-Basic HTTP/S proxy. Created to add HTTP Auth to a request from a client that doesn't suport
-supplying auth in URL, for example VScode's Juypyter Notebook Server browser.
+Basic HTTP/S proxy. Created to add HTTP Auth to a request from a client that doesn't support supplying
+auth in URL, for example VScode's Juypyter Notebook Server browser.
 
 # Usage
 ```
