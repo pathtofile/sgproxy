@@ -3,6 +3,15 @@
 Basic HTTP/S proxy. Created to add HTTP Auth to a request from a client that doesn't support supplying
 auth in URL, for example VScode's Juypyter Notebook Server browser.
 
+# Installing
+Either grab the latest pre-built binary from [Github](https://github.com/pathtofile/sgproxy/releases/latest),
+or build from source:
+```bash
+git clone git@github.com:pathtofile/sgproxy.git
+cd sgproxy
+go build
+```
+
 # Usage
 ```
 Usage of sgproxy:
