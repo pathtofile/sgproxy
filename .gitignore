@@ -2,3 +2,4 @@ sgproxy.exe
 sgproxy
 tls.key
 tls.crt
+dist/
