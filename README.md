@@ -34,7 +34,7 @@ openssl req -new -x509 -days 1826 -key tls.key -out tls.crt -subj '/C=US/ST=Oreg
 #  Then run goproxy
 sgproxy -port 8443 -tls-key tls.key -tls-cert tls.crt
 
-# Send request to proxyt, but overwrite runtime-default url
+# Send request to running sgproxy, but overwrite runtime-default url
 # Used to proxy multiple URLs at once, or be different users
 curl 'http://127.0.0.1:8000/?sgproxy-url=https://bing.com'
 curl 'http://127.0.0.1:8000/?sgproxy-username=other&sgproxy-password=person'
