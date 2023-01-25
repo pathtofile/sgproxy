@@ -19,7 +19,7 @@ Usage of sgproxy:
   -tls-cert string
         Listen using HTTPS, path to TLS certificate to use
   -tls-key string
-        UsListen using HTTPS, path to TLS key to use
+        Listen using HTTPS, path to TLS key to use
 ```
 
 # Examples
